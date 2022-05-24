@@ -1,1 +1,1 @@
-## Multivariate soft rank energy: sample efficiency, consistency, and generative modeling
+# Multivariate soft rank energy: sample efficiency, consistency, and generative modeling
