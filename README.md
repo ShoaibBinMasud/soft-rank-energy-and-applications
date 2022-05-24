@@ -1,5 +1,5 @@
 # Multivariate soft rank energy: sample efficiency, consistency, and generative modeling
-This repository provides two applications of novel multivariate soft rank energy (sRE) and soft rank mmd (sRMMD) towards developing a generative model. First, we use sRE and sRMMD as the loss functions in a simple generative model architecture to produce MNIST-digits. We then utilize the sRMMD in a deep generative model in order to produce valid knockoffs.
+This repository provides two applications of novel multivariate soft rank energy (sRE) and soft rank mmd (sRMMD). (a) developing a generative model using sRE and sRMMD as the loss functions to produce MNIST-digits, (b) utilizing sRMMD as the loss in a deep generative model to produce valid knockoffs in order to select statistically significant features.
 ## Package Dependencies
 - python=3.6.5
 - numpy=1.14.0
