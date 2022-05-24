@@ -10,3 +10,5 @@ This repository provides two applications of novel multivariate soft rank energy
 - pandas=0.23.4
 ## How to run the code
 'Kncokff_generator' folder contains all the functions to generate knockoffs. In order to run the code effectively, move these functions to 'Examples' folder after downloding.
+## Examples
+- [Examples/MNIST_generaion.ipynb](https://github.com/ShoaibBinMasud/soft-rank-energy-and-applications/blob/main/Examples/MNIST_generaion.ipynb)
