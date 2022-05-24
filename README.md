@@ -8,3 +8,5 @@ This repository provides two applications of novel multivariate soft rank energy
 - cvxpy=1.0.10
 - cvxopt=1.2.0
 - pandas=0.23.4
+## How to run the code
+'Kncokff_generator' folder contains all the functions to generate knockoffs. In order to run the code effectively, move these functions to 'Examples' folder after downloding.
