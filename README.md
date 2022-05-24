@@ -11,4 +11,5 @@ This repository provides two applications of novel multivariate soft rank energy
 ## How to run the code
 'Kncokff_generator' folder contains all the functions to generate knockoffs. In order to run the code effectively, move these functions to 'Examples' folder after downloding.
 ## Examples
-- [Examples/MNIST_generaion.ipynb](https://github.com/ShoaibBinMasud/soft-rank-energy-and-applications/blob/main/Examples/MNIST_generaion.ipynb)
+- [Examples/MNIST_generaion.ipynb](https://github.com/ShoaibBinMasud/soft-rank-energy-and-applications/blob/main/Examples/MNIST_generaion.ipynb) A usage example of sRE  as the loss to generate MNIST digits is available in the form of a Jupyter Notebook.
+- https://github.com/ShoaibBinMasud/soft-rank-energy-and-applications/blob/main/Examples/knockoff_synthetic_settings.ipynb 
