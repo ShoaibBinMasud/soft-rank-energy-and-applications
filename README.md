@@ -9,7 +9,7 @@ This repository provides two applications of novel multivariate soft rank energy
 - cvxopt=1.2.0
 - pandas=0.23.4
 ## How to run the code
-'src' folder contains all the useful functions. Download these functions and move them to the 'Examples' folder in order to reproduce the results efficiently.
+To reproduce the figures from the paper, run plot_mnist_images.py 
 ## Demo notebooks
 - [Examples/MNIST_generaion.ipynb](https://github.com/ShoaibBinMasud/soft-rank-energy-and-applications/blob/main/Examples/MNIST_generaion.ipynb) A usage example of sRE  as the loss to generate MNIST digits is available in the form of a Jupyter Notebook.
 - [Examples/knockoff_synthetic_settings.ipynb](https://github.com/ShoaibBinMasud/soft-rank-energy-and-applications/blob/main/Examples/knockoff_synthetic_settings.ipynb) code to generate valid knockoffs using sRMMD.
