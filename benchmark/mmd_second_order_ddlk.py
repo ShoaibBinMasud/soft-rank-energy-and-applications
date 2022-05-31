@@ -5,7 +5,7 @@ from src.gaussian import GaussianKnockoffs
 from src.machine import KnockoffGenerator
 import argparse
 import torch
-import data_custom
+from benchmark.data_ddlk import get_data
 import pytorch_lightning as pl
 from ddlk import ddlk, mdn, utils
 
@@ -39,7 +39,7 @@ def mmd_knockoff(xTrain, xTest, distType = 'MultivariateStudentT'):
 
 ## DDLK knockoff
 def ddlk_knockoff(xTrain, xTest, distType = 'MultivariateStudentT'):
-    trainloader, valloader, testloader = data_custom.get_data(xTrain)
+    trainloader, valloader, testloader = get_data(xTrain)
     pl.trainer.seed_everything(42)
     num_gpus = torch.cuda.device_count()
     gpus = [0] if num_gpus > 0 else None
