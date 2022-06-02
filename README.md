@@ -24,7 +24,7 @@ This repository provides two applications of novel multivariate soft rank energy
 3. To reproduce Table 1 from the paper<br>
     - run real_dataset.py
  
-     N:B: In case of any error regarding package dependices while running all the methods, save train and test set and run each method separately
+     N:B: In case of any error regarding package dependices while running 'mnist_figures_geneartion.py' and 'real_dataset.py', run each method separately.
  
 ## Demo notebooks
 These notebooks provide an overall view how sRMMD-knockoff filter works on synthetic and real data 
