@@ -1,3 +1,4 @@
+## This file generates the Table 1 in the main paper
 import numpy as np
 import pandas as pd
 from src.gaussian import GaussianKnockoffs
