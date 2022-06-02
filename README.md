@@ -12,7 +12,7 @@ This repository provides two applications of novel multivariate soft rank energy
 1. To reproduce the MNIST results: <br>
     - Figure 1(b)- run 'mnist_figures_geneartion.py'<br>
     - Figure 1(a)- use lossType = 'mmd' and run 'mnist_figures_geneartion.py'<br>
-    - Figure 1(c)- use lossType = 'mmd' and run 'mnist_figures_geneartion.py'<br>
+    - Figure 1(c)- use lossType = 'sRMMD' and run 'mnist_figures_geneartion.py'<br>
 2. To fully reproduce knockoff figures
 To reproduce the figures: for MNIST image: run mnist_figures_generation.py and for knockoff results run knockoff_figures_generation.py
 ## Demo notebooks
