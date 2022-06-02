@@ -266,7 +266,7 @@ def knockoffgan(xTrain, xTest, distType = 'MultivariateStudentT'):
 
     xTestGan = list()
     for i in range(len(xTest)):
-        xTestGan.append(sess.run([G_sample], feed_dict = {X: xTest[i], Z: sample_Z(200, z_dim, x_name)}, 
+        xTestGan.append(sess.run([G_sample], feed_dict = {X: xTest[i], Z: sample_Z(xTest[i].shape[0], z_dim, x_name)}, 
                                options=run_opts)[0])
         
     return xTestGan
