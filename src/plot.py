@@ -12,7 +12,7 @@ def plot(xTest, xTestRankSrmmd, xTestSecond, xTestddlk, xTestmmd, xTestgan, d, d
     n_experiments = len(xTest)
     nominal_fdr = 0.1
     alpha = getTestParameter(distType)
-    normalize = True
+    normalize = False
     signal_amplitude_vec = [3, 5, 10,15, 20, 25, 30]
     results_pow = pd.DataFrame(columns=['Amplitude'])
     results_fdp = pd.DataFrame(columns=['Amplitude'])
