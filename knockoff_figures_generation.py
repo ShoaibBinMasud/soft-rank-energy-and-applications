@@ -32,7 +32,7 @@ pars={"epochs":100,
       "GAMMA":gamma, 
       "losstype": 'sRMMD',
       "epsilon":epsilon,
-      "target_corr": corr_g,
+      "target_corr": corr_g, 
       "sigmas":[1.,2.,4.,8.,16.,32.,64.,128.]
      }
 # training 
