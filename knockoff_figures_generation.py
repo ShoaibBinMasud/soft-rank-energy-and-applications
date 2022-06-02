@@ -7,7 +7,7 @@ from src.utils import generateSamples
 from src.machine import KnockoffGenerator
 from benchmark.mmd_second_order_ddlk import mmd_knockoff, ddlk_knockoff, second_kncokoff
 from benchmark.knockoffGAN import knockoffgan
-from plot import plot
+from src.plot import plot
 from src.parameters import getTrainParameter
 
 n = 2000
