@@ -26,7 +26,7 @@ def mmd_knockoff(xTrain, xTest, distType = 'MultivariateStudentT'):
           "lr": 0.01, 
           "lr_milestones": [100],
           "GAMMA":gamma, 
-          "losstype": 'MMD',
+          "losstype": 'mmd',
           "epsilon":None,
           "target_corr": corr_g,
           "sigmas":[1.,2.,4.,8.,16.,32.,64.,128.]
