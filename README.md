@@ -24,7 +24,7 @@ This repository provides two applications of novel multivariate soft rank energy
  
      N:B: In case of any error regarding package dependices while running all the methods, save train and test set and run each method separately
  
-3. ## Demo notebooks
-### These notebooks provide an overall view how sRMMD-knockoff filter works on synthetic and real data 
+## Demo notebooks
+These notebooks provide an overall view how sRMMD-knockoff filter works on synthetic and real data 
 - [Examples/knockoff_synthetic_settings.ipynb](https://github.com/ShoaibBinMasud/soft-rank-energy-and-applications/blob/main/Examples/knockoff_synthetic_settings.ipynb) code to generate valid knockoffs using sRMMD.
 - [Examples/knockoff_real_data.ipynb](https://github.com/ShoaibBinMasud/soft-rank-energy-and-applications/blob/main/Examples/knockoff_real_data.ipynb) metabolites selection using sRMMD knockoffs on the real data set available in [dataset/Real dataset](https://github.com/ShoaibBinMasud/soft-rank-energy-and-applications/tree/main/dataset/Real%20dataset)
