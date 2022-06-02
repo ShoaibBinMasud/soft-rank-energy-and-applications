@@ -26,7 +26,6 @@ This repository provides two applications of novel multivariate soft rank energy
  
 3. ## Demo notebooks
 ### These notebooks provide an overall view how sRMMD-knockoff filter works on synthetic and real data 
-- [Examples/MNIST_generaion.ipynb](https://github.com/ShoaibBinMasud/soft-rank-energy-and-applications/blob/main/Examples/MNIST_generaion.ipynb) A usage example of sRE  as the loss to generate MNIST digits is available in the form of a Jupyter Notebook.
 - [Examples/knockoff_synthetic_settings.ipynb](https://github.com/ShoaibBinMasud/soft-rank-energy-and-applications/blob/main/Examples/knockoff_synthetic_settings.ipynb) code to generate valid knockoffs using sRMMD.
 - [Examples/knockoff_real_data.ipynb](https://github.com/ShoaibBinMasud/soft-rank-energy-and-applications/blob/main/Examples/knockoff_real_data.ipynb) metabolites selection using sRMMD knockoffs on the real data set available in [dataset/Real dataset](https://github.com/ShoaibBinMasud/soft-rank-energy-and-applications/tree/main/dataset/Real%20dataset)
 - [Examples/visualizing_sRMMD_knockoffs.ipynb](https://github.com/ShoaibBinMasud/soft-rank-energy-and-applications/blob/main/Examples/visualizing_sRMMD_knockoffs.ipynb) Code to visualize sRMMD knockoffs w.r.t. different $\varepsilon$. The corresponding pickle file can be found in [dataset/generated_srmmd_kncokoffs_vs_epsilon/](https://github.com/ShoaibBinMasud/soft-rank-energy-and-applications/tree/main/dataset/generated_srmmd_kncokoffs_vs_epsilon).
