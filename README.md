@@ -9,11 +9,11 @@ This repository provides two applications of novel multivariate soft rank energy
 - cvxopt=1.2.0
 - pandas=0.23.4
 ## How to run the code
-1. To reproduce the MNIST results: <br>
+1. To reproduce the MNIST results from the paper: <br>
     - Figure 1(b)- run 'mnist_figures_geneartion.py'<br>
     - Figure 1(a)- use lossType = 'mmd' and run 'mnist_figures_geneartion.py'<br>
     - Figure 1(c)- use lossType = 'sRMMD' and run 'mnist_figures_geneartion.py'<br>
-2. To reproduce knockoff figures<br>
+2. To reproduce knockoff figures from the paper<br>
     - Extra package dependencies for other benchmarks <br>
         - DDLK : install the package from https://github.com/rajesh-lab/ddlk
         - KnockoffGAN : install Tensorflow v2 and use code from https://bitbucket.org/mvdschaar/mlforhealthlabpub/src/master/
@@ -21,7 +21,7 @@ This repository provides two applications of novel multivariate soft rank energy
     - Figure 2(a)- use distType = 'GaussianAR1' and run 'knockoff_figures_geneartion.py
     - Figure 2(b)- use distType = 'GaussianMixtureAR1' and run 'knockoff_figures_geneartion.py
     - Figure 2(d)- use distType = 'SparseGaussian' and run 'knockoff_figures_geneartion.py<br>
-3. To reproduce Table<br>
+3. To reproduce Table 1 from the paper<br>
     - run real_dataset.py
  
      N:B: In case of any error regarding package dependices while running all the methods, save train and test set and run each method separately
