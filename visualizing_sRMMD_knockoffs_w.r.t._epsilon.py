@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue May 24 08:30:15 2022
-
-@author: shakt
-"""
+# This notebook plots the sRMMD knockoffs generated using different $\varepislon$. We use a pretrained file to visualize the quality of the knockoff
 
 import numpy as np
 import gzip
