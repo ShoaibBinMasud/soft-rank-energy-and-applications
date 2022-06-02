@@ -17,6 +17,10 @@ This repository provides two applications of novel multivariate soft rank energy
     - Extra package dependencies for other benchmarks <br>
         - DDLK : install the package from https://github.com/rajesh-lab/ddlk
         - KnockoffGAN : install Tensorflow v2 and use code from https://bitbucket.org/mvdschaar/mlforhealthlabpub/src/master/
+    - Reproducing Figure 2(c)- run 'knockoff_figures_geneartion.py
+    - Figure 2(a)- use distType = 'GaussianAR1' and run 'knockoff_figures_geneartion.py
+    - Figure 2(b)- use distType = 'GaussianMixtureAR1' and run 'knockoff_figures_geneartion.py
+    - Figure 2(d)- use distType = 'SparseGaussian' and run 'knockoff_figures_geneartion.py
 3. ## Demo notebooks
 - [Examples/MNIST_generaion.ipynb](https://github.com/ShoaibBinMasud/soft-rank-energy-and-applications/blob/main/Examples/MNIST_generaion.ipynb) A usage example of sRE  as the loss to generate MNIST digits is available in the form of a Jupyter Notebook.
 - [Examples/knockoff_synthetic_settings.ipynb](https://github.com/ShoaibBinMasud/soft-rank-energy-and-applications/blob/main/Examples/knockoff_synthetic_settings.ipynb) code to generate valid knockoffs using sRMMD.
