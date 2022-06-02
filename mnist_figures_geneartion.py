@@ -31,7 +31,7 @@ N_COLS = 8
 N_ROWS = 4 
  
 if not os.path.exists(root):
-    os.mkdir(root)
+    os.mkdir(root) 
 if not os.path.exists(model):
     os.mkdir(model)
 
