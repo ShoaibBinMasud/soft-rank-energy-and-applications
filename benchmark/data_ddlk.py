@@ -31,7 +31,7 @@ def covariance_AR1(p, rho):
         for j in range(i, p):
             Sigma[i][j] = reduce(mul, [rho[l] for l in range(i, j)], 1)
     Sigma = np.triu(Sigma) + np.triu(Sigma).T - np.diag(np.diag(Sigma))
-    return Sigma
+    return Sigma 
 
 
 class GaussianAR1:
