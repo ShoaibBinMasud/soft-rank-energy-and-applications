@@ -36,6 +36,7 @@ pars={"epochs":100,
       "sigmas":[1.,2.,4.,8.,16.,32.,64.,128.]
      }
 # training 
+print('-- sRMMD---')
 srmmd_Machine = KnockoffGenerator(pars)
 srmmd_Machine.train(xTrain)
 
@@ -44,16 +45,22 @@ xTestRankSrmmd = [srmmd_Machine.generate(xTest[i]) for i in range(len(xTest))]
 
 ## BENCHMARKS
 ## MMD knockoffs
+print('-- MMD---')
 xTestmmd = mmd_knockoff(xTrain, xTest, distType = 'MultivariateStudentT') 
 
 # ## DDLK knockoff
+print('-- DDLK---')
 xTestddlk = ddlk_knockoff(xTrain, xTest)
 
 # ## Second-order knockoff
+print('-- Second-order ---')
 xTestSecond = second_kncokoff(xTrain, xTest, distType = 'MultivariateStudentT')
 
 ## knockoffGAN
+print('-- KnockoffGAN ---')
+
 xTestgan = knockoffgan(xTrain, xTest, distType = 'MultivariateStudentT')
 
 # ## plotting FDR vs POWER tradeoff w.r.t. amplitude
+print('plotting FDR vs POWER tradeoff w.r.t. amplitude')
 plot(xTest, xTestRankSrmmd, xTestSecond, xTestddlk, xTestmmd, xTestgan, d, distType)
