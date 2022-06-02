@@ -13,7 +13,7 @@ This repository provides two applications of novel multivariate soft rank energy
     - Figure 1(b)- run 'mnist_figures_geneartion.py'<br>
     - Figure 1(a)- use lossType = 'mmd' and run 'mnist_figures_geneartion.py'<br>
     - Figure 1(c)- use lossType = 'sRMMD' and run 'mnist_figures_geneartion.py'<br>
-2. To fully reproduce knockoff figures<br>
+2. To reproduce knockoff figures<br>
     - Extra package dependencies for other benchmarks <br>
         - DDLK : install the package from https://github.com/rajesh-lab/ddlk
         - KnockoffGAN : install Tensorflow v2 and use code from https://bitbucket.org/mvdschaar/mlforhealthlabpub/src/master/
@@ -21,6 +21,8 @@ This repository provides two applications of novel multivariate soft rank energy
     - Figure 2(a)- use distType = 'GaussianAR1' and run 'knockoff_figures_geneartion.py
     - Figure 2(b)- use distType = 'GaussianMixtureAR1' and run 'knockoff_figures_geneartion.py
     - Figure 2(d)- use distType = 'SparseGaussian' and run 'knockoff_figures_geneartion.py<br>
+3. To reproduce Table<br>
+    - run real_dataset.py
  
      N:B: In case of any error regarding package dependices while running all the methods, save train and test set and run each method separately
  
