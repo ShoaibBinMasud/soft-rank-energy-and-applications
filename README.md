@@ -1,5 +1,4 @@
-# [Multivariate soft rank via entropic optimal transport: sample efficiency and generative modeling
-]([https://www.google.com](https://arxiv.org/pdf/2111.00043.pdf))
+# Code for Multivariate soft rank via entropic optimal transport: sample efficiency and generative modeling
 This repository provides two applications of novel multivariate soft rank energy (sRE) and soft rank mmd (sRMMD). (a) Developing a generative model using sRE and sRMMD as the loss functions to produce MNIST-digits, (b) utilizing sRMMD as the loss in a deep generative model to produce valid knockoffs in order to select statistically significant features.
 ## Package Dependencies to sRMMMD-based knockoff filter
 - python=3.6.5
