@@ -24,7 +24,7 @@ This repository provides two applications of novel multivariate soft rank energy
     - Figure 2(d)- use distType = 'SparseGaussian' and run 'knockoff_figures_geneartion.py<br>
 3. To reproduce Table 1 from the paper<br>
     - run real_dataset.py
- 
+  
      N:B: In case of any error regarding package dependices while running 'mnist_figures_geneartion.py' and 'real_dataset.py', run each method separately.
  
 ## Demo notebooks
