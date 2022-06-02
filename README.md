@@ -22,7 +22,7 @@ This repository provides two applications of novel multivariate soft rank energy
     - Figure 2(b)- use distType = 'GaussianMixtureAR1' and run 'knockoff_figures_geneartion.py
     - Figure 2(d)- use distType = 'SparseGaussian' and run 'knockoff_figures_geneartion.py<br>
  
- N:B: In case of any error regarding package dependices while running all the methods, save train and test set and run each method separately
+     N:B: In case of any error regarding package dependices while running all the methods, save train and test set and run each method separately
  
 3. ## Demo notebooks
 ### These notebooks provide an overall view how sRMMD-knockoff filter works on synthetic and real data 
