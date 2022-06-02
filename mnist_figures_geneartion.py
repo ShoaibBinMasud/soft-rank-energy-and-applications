@@ -28,7 +28,7 @@ GMMN_SAVE_PATH = model + "/gmmn"+"_eps_"+losstype+"_"+ str(reg)+".pth"
 N_ENCODER_EPOCHS = 100
 N_GEN_EPOCHS =100 
 N_COLS = 8
-N_ROWS = 4
+N_ROWS = 4 
 
 if not os.path.exists(root):
     os.mkdir(root)
