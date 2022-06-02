@@ -14,10 +14,9 @@ This repository provides two applications of novel multivariate soft rank energy
     - Figure 1(a)- use lossType = 'mmd' and run 'mnist_figures_geneartion.py'<br>
     - Figure 1(c)- use lossType = 'sRMMD' and run 'mnist_figures_geneartion.py'<br>
 2. To fully reproduce knockoff figures<br>
-    - extra package dependenceis<br>
-          - Tensorflow v2
-          - 
-
+    - Extra package dependencies for other benchmarks <br>
+        - DDLK : install the package from https://github.com/rajesh-lab/ddlk
+        - KnockoffGAN : install Tensorflow v2 and use code from https://bitbucket.org/mvdschaar/mlforhealthlabpub/src/master/
 3. ## Demo notebooks
 - [Examples/MNIST_generaion.ipynb](https://github.com/ShoaibBinMasud/soft-rank-energy-and-applications/blob/main/Examples/MNIST_generaion.ipynb) A usage example of sRE  as the loss to generate MNIST digits is available in the form of a Jupyter Notebook.
 - [Examples/knockoff_synthetic_settings.ipynb](https://github.com/ShoaibBinMasud/soft-rank-energy-and-applications/blob/main/Examples/knockoff_synthetic_settings.ipynb) code to generate valid knockoffs using sRMMD.
