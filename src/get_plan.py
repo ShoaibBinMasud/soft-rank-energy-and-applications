@@ -31,7 +31,7 @@ def Sinkhorn_ops(p, eps, x_i, y_j):
     # This needs to be modified according to the problem: Perhaps give the precomputed matrix as an input?
     # for example when we also use the feature maps or define in a feature domain
 
-    x_y = x_i.unsqueeze(1) - y_j.unsqueeze(0)
+    x_y = x_i.unsqueeze(1) - y_j.unsqueeze(0) 
 
     if len(x_y.shape) == 2:
         if   p == 1: C_e = torch.abs(x_y) / eps
