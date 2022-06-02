@@ -96,5 +96,5 @@ axarr[5].set_xlabel('(f)', fontsize = 14)
 
 axarr[1].patch.set_alpha(0.)
 plt.show()
-plt.savefig('mode_vs_epsilon_sRMMD.pdf',bbox_inches='tight')
+plt.savefig('mode_vs_epsilon_sRMMD.pdf',bbox_inches='tight') 
 
