@@ -134,7 +134,7 @@ meta_list_r = list(standard_data.columns[selected_r])
 ## BENCHMARKS
 ## MMD knockoffs
 print('-- MMD---')
-xTestmmd = mmd_knockoff(xTrain, xTest)
+xTestmmd = mmd_knockoff(xTrain, xTest, distType = 'real')
 selected_m = metabolites_selection(xTest, xTestmmd, y)
 meta_list_m = list(standard_data.columns[selected_m]) 
 
@@ -148,7 +148,7 @@ meta_list_s = list(standard_data.columns[selected_s])
 
 ## knockoffGAN
 print('-- KnockoffGAN---')
-xTestgan = knockoffgan(xTrain, xTest)
+xTestgan = knockoffgan(xTrain, xTest, distType = 'real')
 selected_g = metabolites_selection(xTest, xTestgan, y)
 meta_list_g = list(standard_data.columns[selected_g]) 
 
