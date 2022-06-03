@@ -27,7 +27,7 @@ def rf_oob_score(X, X_knockoff, y):
     return Z, W
 
 def kfilter(W, offset = 0.0, q = 0.1):
-    t = np.insert(np.abs(W[W != 0]), 0, 0) # omitting 0 value and then add zero at the begining
+    t = np.insert(np.abs(W[W != 0]), 0 , 0) # omitting 0 value and then add zero at the begining
     t = np.sort(t)
     ratio = np.zeros(len(t));
     for i in range(len(t)):
